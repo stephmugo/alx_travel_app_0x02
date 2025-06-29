@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pip/
+
+# Environment variables
+.env
+*.env
+
+# SQLite and other DBs
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Media/static (optional — if using cloud storage in production)
+media/
+staticfiles/
+static_root/
+media_root/
+
+# pytest
+.cache/
+
+# coverage reports
+htmlcov/
+.coverage
+
+# mypy, pyright, pylance
+.mypy_cache/
+.pyright/
+.pyre/
+
+# Celery beat and broker files
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+*.pid
+*.sock
